@@ -70,10 +70,9 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width: 800px) {
         .container {
-        /* width: 1024px; */
         border-left: 1px solid #D1D5DA;
         border-right: 1px solid #D1D5DA;
-        padding: 2.5% 5% 5%;
+        padding: 2.5% 5%;
         margin: auto;
     }
 
@@ -82,27 +81,32 @@ h1, h2, h3, h4, h5 {
         flex-direction: column;
         width: 85%;
         justify-content: center;
+        align-items: center;
     }
 
     .container .logo {
-        /* margin-left: 30px; */
+        margin-top: 8%;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-
-    .comtaimer .flex-link{
+    
+    .flex-link{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        /* justify-content: center; */
+        width: 100%;
+        margin-top: 7%;
+        justify-content: center;;
     }
 
     nav a {
+        display: flex;
+        flex-direction: column;
         color: #BDBDBD;
-        margin-right: 18%;
+        padding: 0 25%;
         text-decoration: none;
-        align-items: center;
+        width: 100%;
+        justify-content: space-between;
     }
 
     header {
